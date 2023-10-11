@@ -1,9 +1,10 @@
 .skills_container {
   width: 40%;
-  &_item {
+  padding: 0.5em 1em;
+  &-item {
     display: flex;
     .name {
-      @include font(14px, 500);
+      @include font(16px, 600, $base-color);
       width: 100px;
     }
   }

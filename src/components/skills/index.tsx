@@ -12,7 +12,7 @@ export default function() {
       <div className="skills_container">
         {map(skillsData, (data, k) => {
           return (
-            <div key={k} className="skills_item">
+            <div key={k} className="skills_container-item">
               <div className="name">{k}:</div>
               <Progress percent={data} strokeColor={twoColors} showInfo={false} />
             </div>
